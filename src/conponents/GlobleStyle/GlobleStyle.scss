@@ -29,11 +29,29 @@ body {
     text-rendering: optimizeSpeed;
 }
 
+body {
+    .tippy-box {
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        background-color: rgba(84, 84, 84, 0.92);
+        color: rgb(255, 255, 255);
+    }
+    .tippy-arrow {
+        color: rgba(84, 84, 84, 0.92);
+    }
+    .tippy-content {
+        padding: 8px;
+    }
+}
+
 input,
 button,
 [tabindex] {
     border: none;
     outline: none;
+    background-color: transparent;
 }
 
 a[href] {
